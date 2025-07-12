@@ -1,155 +1,134 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Apex Auto Auctions </title>
-
-<!-- Bootstrap CSS -->
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- CSS linking -->
-<link rel="stylesheet" href="styles.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Auto Auctions</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS linking -->
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
     <header>
-
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        
-        <div class="container">
-        
-            <a class="navbar-brand" href="index.html">Apex Auto Auctions</a>
-        
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Apex Auto Auctions</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        
                     <span class="navbar-toggler-icon"></span>
-        
                 </button>
-        
-                    <div class="collapse navbar-collapse" id="navbarNav">
-        
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-        
                         <li class="nav-item">
-        
                             <a class="nav-link" href="index.html">Home</a>
-        
                         </li>
-        
                         <li class="nav-item">
-        
                             <a class="nav-link" href="about.html">About</a>
-        
                         </li>
-        
                         <li class="nav-item">
-        
                             <a class="nav-link" href="contact.html">Contact</a>
-        
                         </li>
-        
                     </ul>
-        
-                    </div>
-        
                 </div>
-        
+            </div>
         </nav>
-        
-        </header>
+    </header>
 
-<main class="container my-5">
-    <!-- Hero Section (Top Banner) -->
-    <div class="row align-items-center mb-5">
-        <div class="col-md-4">
-            <h2>Luxury at Apex Auto Auction</h2>
-            <p>At Apex Auto Auctions, we take pride in selling the beauty and performance in luxury cars.</p>
+    <main class="container my-5">
+        <!-- Hero Section (Top Banner) -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-4">
+                <h2>Luxury at Apex Auto Auction</h2>
+                <p>At Apex Auto Auctions, we take pride in selling the beauty and performance in luxury cars.</p>
+            </div>
+            <div class="col-md-8">
+                <img src="images/PAGE.jpeg" class="img-fluid rounded" style="height: 400px; width: 100%; object-fit: cover;">
+            </div>
         </div>
-        <div class="col-md-8">
-            <img src="images/PAGE.jpeg" class="img-fluid rounded" style="height: 400px; width: 100%; object-fit: cover;">
-        </div>
-    </div>
 
-    <!-- Brand Showcase Grid (4 equal-sized cards) -->
-    <div class="row g-4"> <!-- 'g-4' adds spacing between cards -->
-        <!-- Ferrari -->
-        <div class="col-md-6 col-lg-3">
-            <div class="card h-100"> <!-- 'h-100' makes all cards same height -->
-                <img src="images/Ferrari/home2.jpg" class="card-img-top" style="height: 250px; object-fit: cover;">
-                <div class="card-body">
-                    <h5 class="card-title">Ferrari Legacy</h5>
-                    <p class="card-text">Step into a world where precision engineering meets raw power.</p>
-                    <a href="Ferrari.html" class="btn btn-primary btn-sm">View Cars</a>
+        <!-- 🔥 Promotional Video Section -->
+        <div class="row mb-5">
+            <div class="col-12">
+                <div class="ratio ratio-16x9">
+                    <video controls autoplay muted>
+                        <source src="images/WhatsApp Video 2025-07-12 at 12.10.07_62d916da.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
         </div>
 
-        <!-- Lamborghini -->
-        <div class="col-md-6 col-lg-3">
-            <div class="card h-100">
-                <img src="images/Lamborghini/home1.jpg" class="card-img-top" style="height: 250px; object-fit: cover;">
-                <div class="card-body">
-                    <h5 class="card-title">Lamborghini Legacy</h5>
-                    <p class="card-text">An icon of speed and style, engineered to thrill.</p>
-                    <a href="Lamborghini.html" class="btn btn-primary btn-sm">View Cars</a>
+        <!-- Brand Showcase Grid (4 equal-sized cards) -->
+        <div class="row g-4">
+            <!-- Ferrari -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/Ferrari/home2.jpg" class="card-img-top" style="height: 250px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Ferrari Legacy</h5>
+                        <p class="card-text">Step into a world where precision engineering meets raw power.</p>
+                        <a href="Ferrari.html" class="btn btn-primary btn-sm">View Cars</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lamborghini -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/Lamborghini/home1.jpg" class="card-img-top" style="height: 250px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Lamborghini Legacy</h5>
+                        <p class="card-text">An icon of speed and style, engineered to thrill.</p>
+                        <a href="Lamborghini.html" class="btn btn-primary btn-sm">View Cars</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- McLaren -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/McLaren/home5.jpg" class="card-img-top" style="height: 250px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">McLaren Legacy</h5>
+                        <p class="card-text">Precision-built for adrenaline and track-born performance.</p>
+                        <a href="McLaren.html" class="btn btn-primary btn-sm">View Cars</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Porsche -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/Porsche/home6.jpg" class="card-img-top" style="height: 250px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Porsche Legacy</h5>
+                        <p class="card-text">Timeless design meets relentless engineering.</p>
+                        <a href="Porsche.html" class="btn btn-primary btn-sm">View Cars</a>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- McLaren -->
-        <div class="col-md-6 col-lg-3">
-            <div class="card h-100">
-                <img src="images/McLaren/home5.jpg" class="card-img-top" style="height: 250px; object-fit: cover;">
-                <div class="card-body">
-                    <h5 class="card-title">McLaren Legacy</h5>
-                    <p class="card-text">Precision-built for adrenaline and track-born performance.</p>
-                    <a href="McLaren.html" class="btn btn-primary btn-sm">View Cars</a>
+        <!-- "Did You Know?" Card (Centered) -->
+        <div class="row mt-5">
+            <div class="col-md-6 mx-auto text-center">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Did You Know?</h5>
+                        <p class="card-text">GitHub Pages is a free service to host static websites directly from your GitHub repository.</p>
+                    </div>
                 </div>
             </div>
         </div>
+    </main>
 
-        <!-- Porsche -->
-        <div class="col-md-6 col-lg-3">
-            <div class="card h-100">
-                <img src="images/Porsche/home6.jpg" class="card-img-top" style="height: 250px; object-fit: cover;">
-                <div class="card-body">
-                    <h5 class="card-title">Porsche Legacy</h5>
-                    <p class="card-text">Timeless design meets relentless engineering.</p>
-                    <a href="Porsche.html" class="btn btn-primary btn-sm">View Cars</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <footer>
+        <p class="text-center py-4">&copy; 2025 Apex Auto Auctions</p>
+    </footer>
 
-    <!-- "Did You Know?" Card (Centered) -->
-    <div class="row mt-5">
-        <div class="col-md-6 mx-auto text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Did You Know?</h5>
-                    <p class="card-text">GitHub Pages is a free service to host static websites directly from your GitHub repository.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</main>
-
-<footer>
-
-<p>&copy; 2025 Apex Auto Auctions</p>
-
-</footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-
 </html>
-
